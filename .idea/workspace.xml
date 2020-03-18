@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea9bb48c-414b-44be-8d28-54d49930da39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-frontend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/jscongif.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/createRequestSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/palette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog-frontend" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectId" id="1YecI86zqK6NBnoYDj2D9fduhvg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-frontend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.meteor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog-frontend" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea9bb48c-414b-44be-8d28-54d49930da39" name="Default Changelist" comment="" />
+      <created>1583306417773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583306417773</updated>
+      <workItem from="1583306419710" duration="10125000" />
+      <workItem from="1583572658297" duration="8273000" />
+      <workItem from="1583638565657" duration="15889000" />
+      <workItem from="1583825834976" duration="1038000" />
+      <workItem from="1583926232261" duration="5301000" />
+      <workItem from="1584064798414" duration="35000" />
+      <workItem from="1584064843691" duration="44000" />
+      <workItem from="1584067924750" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1840" y="132" key="#Updates" timestamp="1583321379256">
+      <screen x="1280" y="-39" width="1920" height="1057" />
+    </state>
+    <state x="1840" y="132" key="#Updates/1280.-39.1920.1057/0.23.1280.721@1280.-39.1920.1057" timestamp="1583321379256" />
+    <state x="104" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583826283638">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="104" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.-39.1920.1057/0.23.1280.723@0.23.1280.723" timestamp="1583826283638" />
+    <state x="1974" y="265" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583325161527">
+      <screen x="1280" y="-39" width="1920" height="1057" />
+    </state>
+    <state x="1974" y="265" key="#com.intellij.fileTypes.FileTypeChooser/1280.-39.1920.1057/0.23.1280.721@1280.-39.1920.1057" timestamp="1583325161527" />
+    <state x="244" y="23" key="SettingsEditor" timestamp="1583826306205">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="244" y="23" key="SettingsEditor/1280.-39.1920.1057/0.23.1280.723@0.23.1280.723" timestamp="1583826306205" />
+    <state x="2165" y="218" width="683" height="729" key="find.popup" timestamp="1583330877581">
+      <screen x="1280" y="-39" width="1920" height="1057" />
+    </state>
+    <state x="2165" y="218" width="683" height="729" key="find.popup/1280.-39.1920.1057/0.23.1280.721@1280.-39.1920.1057" timestamp="1583330877581" />
+    <state x="1905" y="225" key="run.anything.popup" timestamp="1583928541555">
+      <screen x="1280" y="-39" width="1920" height="1057" />
+    </state>
+    <state x="1905" y="225" key="run.anything.popup/1280.-39.1920.1057/0.23.1280.723@1280.-39.1920.1057" timestamp="1583928541555" />
+    <state x="1905" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1583931268100">
+      <screen x="1280" y="-39" width="1920" height="1057" />
+    </state>
+    <state x="1905" y="179" width="670" height="676" key="search.everywhere.popup/1280.-39.1920.1057/0.23.1280.721@1280.-39.1920.1057" timestamp="1583330872056" />
+    <state x="1905" y="179" width="670" height="676" key="search.everywhere.popup/1280.-39.1920.1057/0.23.1280.723@1280.-39.1920.1057" timestamp="1583931268100" />
+  </component>
+</project>
