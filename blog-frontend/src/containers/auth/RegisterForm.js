@@ -5,7 +5,9 @@ import AuthForm from '../../components/auth/AuthForm';
 import { check } from '../../modules/user';
 import { withRouter } from 'react-router-dom';
 
-const RegisterForm = history => {
+const RegisterForm = ({ history }) => {
+  const [error, setError] = useState(null);
+
   const dispatch = useDispatch();
   const { form, auth, authError, user } = useSelector(({ auth, user }) => ({
     form: auth.register,
@@ -28,6 +30,8 @@ const RegisterForm = history => {
   const onSubmit = e => {
     e.preventDefault();
     const { username, password, passwordConfirm } = form;
+
+
     if (password !== passwordConfirm) {
       return;
     }
