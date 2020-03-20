@@ -88,7 +88,7 @@ const AuthForm = ({ type, form, onChange, onSubmit, error }) => {
             value={form.passwordConfirm}
           />
         )}
-        {error && <ErrorMessage>에러 발생!</ErrorMessage>}
+        {error && <ErrorMessage>{error}</ErrorMessage>}
         <ButtonWithMarginTop cyan fullWidth styl>
           {text}
         </ButtonWithMarginTop>
@@ -98,8 +98,8 @@ const AuthForm = ({ type, form, onChange, onSubmit, error }) => {
         {type === 'login' ? (
           <Link to="/register">회원가입</Link>
         ) : (
-          <Link to="/login">로그인</Link>
-        )}
+            <Link to="/login">로그인</Link>
+          )}
       </Footer>
     </AuthFormBlock>
   );
