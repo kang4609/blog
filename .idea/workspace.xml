@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea9bb48c-414b-44be-8d28-54d49930da39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/jscongif.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/RegisterForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/createRequestSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog-frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -98,6 +76,8 @@
       <workItem from="1584064798414" duration="35000" />
       <workItem from="1584064843691" duration="44000" />
       <workItem from="1584067924750" duration="162000" />
+      <workItem from="1584767056342" duration="525000" />
+      <workItem from="1584767719091" duration="5000" />
     </task>
     <servers />
   </component>

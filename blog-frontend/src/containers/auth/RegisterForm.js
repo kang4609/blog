@@ -34,9 +34,7 @@ const RegisterForm = ({ history }) => {
     if ([username, password, passwordConfirm].includes('')) {
       setError('빈 칸을 모두 입력하세요.');
       return;
-
     }
-
 
     if (password !== passwordConfirm) {
       setError('비밀번호가 일치하지 않습니다.');
@@ -56,7 +54,6 @@ const RegisterForm = ({ history }) => {
   // 회원가입 성공 / 실패 처리
   useEffect(() => {
     if (authError) {
-
       if (authError.response.status === 409) {
         setError('이미 존재하는 계정입니다.');
         return;
@@ -78,9 +75,14 @@ const RegisterForm = ({ history }) => {
       console.log('check API  성공');
       console.log(user);
       history.push('/');
+
+      try {
+        localStorage.setItem('user', JSON.stringify('user'));
+      } catch (e) {
+        console.log('loaclStorage is not working');
+      }
     }
   }, [history, user]);
-
 
   return (
     <AuthForm
