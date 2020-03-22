@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import styled from 'styled-components';
 import palette from '../../lib/palette';
 
@@ -72,7 +72,7 @@ const TagList = React.memo(({ tags, onRemove }) => (
   </TagListBlock>
 ));
 
-const TagBox = () => {
+const TagBox = ({ tags, onChangeTags }) => {
   const [input, setInput] = useState('');
   const [localTags, setLocalTags] = useState([]);
 
@@ -81,16 +81,20 @@ const TagBox = () => {
       if (!tag) return;
       if (localTags.includes(tag)) return;
 
-      setLocalTags([...localTags, tag]);
+      const nextTags = [...localTags, tag];
+      setLocalTags(nextTags);
+      onChangeTags(nextTags);
     },
-    [localTags],
+    [localTags, onChangeTags],
   );
 
   const onRemove = useCallback(
     tag => {
-      setLocalTags(localTags.filter(t => t !== tag));
+      const nextTags = localTags.filter(t => t !== tag);
+      setLocalTags(nextTags);
+      onChangeTags(nextTags);
     },
-    [localTags],
+    [localTags, onChangeTags],
   );
 
   const onChange = useCallback(e => {
@@ -106,6 +110,10 @@ const TagBox = () => {
     [input, insertTag],
   );
 
+  useEffect(() => {
+    setLocalTags(tags);
+  }, [tags]);
+
   return (
     <TagBoxBlock>
       <h4>태그</h4>
@@ -117,7 +125,7 @@ const TagBox = () => {
         />
         <button type="submit">추가</button>
       </TagForm>
-      <TagList tags={['태그1', '태그2', '태그3']} onRemove={onRemove} />
+      <TagList tags={localTags} onRemove={onRemove} />
     </TagBoxBlock>
   );
 };

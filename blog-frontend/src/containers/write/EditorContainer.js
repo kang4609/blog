@@ -24,8 +24,7 @@ const EditorContainer = () => {
 
 
 
-    return
-    <Editor onChangeField={onChangeField} title={title}, body={body} />;
+    return <Editor onChangeField={onChangeField} title={title} body={body} />;
 };
 
 export default EditorContainer;
